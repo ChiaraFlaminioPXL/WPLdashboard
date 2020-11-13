@@ -1,2 +1,0 @@
-# WPLdashboard
-Project van werkplekleren.
