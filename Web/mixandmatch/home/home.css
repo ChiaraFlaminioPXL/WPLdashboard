@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #595f64;
+}
+
+/* header */
+.neon_word {
+    display: inline-block;
+}
+
+header {
+    background-image: url("../assets/darksky.png");
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    word-spacing: .4em
+}
+
+.neon, .neon:hover .broken {
+    color: transparent;
+    font-size: 75px;
+    font-family: Londrina Sketch, serif;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: .09em;
+    text-shadow: 0 0 .02em hsla(185, 50%, 80%, 0.8),
+    .04em .02em .05em hsla(184, 50%, 80%, .8),
+    .03em .03em .1em #e5a8b3,
+    .03em .03em .1em pink,
+    -.03em .03em .1em pink,
+    -.03em -.03em .1em pink,
+    .03em .03em .8em pink,
+    .03em -.03em .8em #ffc0cb,
+    -.03em .03em .8em pink,
+    -.03em -.03em .8em pink;
+}
+
+.broken {
+    text-shadow: 0 0 .02em hsl(0, 60%, 84%),
+    .04em .02em .05em hsla(30, 100%, 70%, .3),
+    .03em .03em .1em #FFC0CB,
+    .03em .03em .1em #FFC0CB,
+    -.03em .03em .1em #FFC0CB,
+    -.03em -.03em .1em #FFC0CB;
+}
+
+header h3 {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    color: #dddddd;
+}
+
+header .highlight {
+    color: #bfd4e0;
+}
+
+/* nav */
+#navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #d2d5d9;
+    padding: 20px;
+    font-size: 18px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#navigation a:hover, #navigation a.active {
+    background-color: #b8bbbf;
+    color: #fff;
+    padding: 20px 35px;
+}
+
+/* main */
+
+main {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    float: left;
+    padding: 50px;
+    background-color: #595f64;
+    width: 55%;
+    height: 450px;
+    color: white;
+}
+
+/* aside */
+
+aside {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    float: right;
+    width: 45%;
+    color: #bfd4e0;
+    background-color: #fff;
+    background-image: url("../assets/bg_img.png");
+    background-size: 1000px;
+    padding: 50px;
+    height: 450px;
+}
+
+aside h2, aside p {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+}
+
+/* footer */
+
+footer {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    float: bottom;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #eac6c6;
+    bottom: 0;
+    height: 70px;
+}
+
+footer p {
+    padding: 15px;
+}
+
+/* view */
+@media screen and (max-width: 980px) {
+    #about {
+        max-height: 300px;
+        min-width: 100%;
+    }
+    #info {
+        max-height: 370px;
+        min-width: 100%;
+    }
+    footer {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 711px) {
+    .neon, .neon:hover .broken {
+        font-size: 60px;
+    }
+    #mixandmatch {
+        padding-right: 35px;
+        padding-top: 25px;
+    }
+    header h3 {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 673px) {
+    body {
+        width: 100%;
+    }
+    .neon, .neon:hover .broken {
+        font-size: 55px;
+    }
+    #mixandmatch {
+        padding-right: 35px;
+        padding-top: 35px;
+    }
+    #navigation a {
+        margin-right: 25%;
+        margin-left: 25%;
+        padding: 20px 35px;
+        margin-bottom: 25px;
+    }
+    #navigation {
+        text-align: center;
+    }
+    #navigation a:hover, #navigation a.active {
+
+    }
+}
+
+@media screen and (max-width: 644px) {
+    body {
+        width: 100%;
+    }
+    .neon, .neon:hover .broken {
+        font-size: 40px;
+    }
+    #mixandmatch {
+        padding-right: 35px;
+        padding-top: 20px;
+    }
+    header {
+        max-height: 160px;
+    }
+}

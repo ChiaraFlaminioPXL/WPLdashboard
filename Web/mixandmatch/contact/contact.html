@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mix & match</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href='http://fonts.googleapis.com/css?family=Londrina+Sketch' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li class="neon_word"><a class="neon" href="#"><span class="broken">m</span>ix</a></li>
+            <li class="neon_word"><a class="neon" href="#"><span class="broken">&</span></a></li>
+            <li class="neon_word"><a class="neon" href="#">ma<span class="broken">t</span>ch</a></li>
+        </ul>
+    </nav>
+    <h3>by <span class="highlight">Natalie</span> and <span class="highlight">Chiara</span></h3>
+</header>
+
+<section id="navigation">
+    <nav>
+        <a href="../home/home.html">Home</a>
+        <a href="#">Natalie's page</a>
+        <a href="#">Chiara's page</a>
+        <a href="../contact/contact.html">Contact us!</a>
+    </nav>
+</section>
+<main>
+    <section id="formulier">
+        <h1>Contact us!</h1>
+        <form>
+            <label for="Achternaam"> Achternaam:</label>
+            <input type="text" id="Achternaam" required> <br>
+
+            <label for="Naam"> Naam:</label>
+            <input type="text" maxlength="10" id="Naam" required> <br>
+
+            <label for="Email"> Email:</label>
+            <input type="email" id="Email" placeholder="@gmail.com" required> <br>
+
+            <label for="Vraag"> Vraag:</label>
+            <input list="Vraag" name="Vraag" required> <br>
+
+            <datalist id="Vraag">
+                <option value="About skills">
+                <option value="Commissions">
+                <option value="Hiring">
+                <option value="Other">
+            </datalist>
+
+            <label id="test2" for="Opmerking"> Opmerking:</label>
+            <textarea name="Opmerking" placeholder="Opmerking" maxlength="100" id="Opmerking" class="Test"></textarea>
+            <br>
+
+            <input type="checkbox" id="Mailbox" name="Akkoord">
+            <label for="Mailbox">Ik wil updates over Natalie en Chiara.</label> <br>
+
+            <input type="submit" id="submit" class="button" value="Verzenden">
+        </form>
+    </section>
+</main>
+<footer>
+    <p>Made by Natalie and Chiara @ Hogeschool PXL</p>
+    <!--  icons van PXL's social media  -->
+</footer>
+</body>
+</html>
