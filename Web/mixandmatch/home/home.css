@@ -64,6 +64,7 @@ header .highlight {
     background-color: #d2d5d9;
     padding: 20px;
     font-size: 18px;
+    box-shadow: #43474a;
 }
 
 nav a {

@@ -64,6 +64,7 @@ header .highlight {
     background-color: #d2d5d9;
     padding: 20px;
     font-size: 18px;
+    box-shadow: #43474a;
 }
 
 nav a {
@@ -78,11 +79,126 @@ nav a {
     padding: 20px 35px;
 }
 
+/* main */
+#intro {
+    background-color: #a8bbc6;
+    width: 100%;
+    padding: 1px;
+    background-image: url("../assets/bg_img.png");
+    background-blend-mode: screen;
+    box-shadow: black;
+}
+
+#intro p {
+    color: black;
+    padding: 75px 60px;
+    margin: 2px;
+    font-size: 17px;
+}
+
+.bigger {
+    font-size: xx-large;
+    font-style: oblique;
+    padding-right: 5px;
+}
+
+/* cards */
+
+#cards{
+    margin-left: 9%;
+    margin-bottom: 2%;
+    margin-top: 2.5%;
+}
+
+#cards p{
+    margin: 5% 20% 5% 20%;
+    color: #ffffff;
+}
+
+/* cards naast elkaar zetten*/
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 15%;
+    padding: 5px;
+}
+
+
+/* flipcards */
+
+.maincontainer{
+    width: 280px;
+    height: 370px;
+    position: relative;
+    background: transparent;
+    margin: 15px 25px 25px 25px;
+
+
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+
+
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+
+    /* glow */
+
+    color: transparent;
+    box-shadow: 0 0 .02em hsla(186, 14%, 59%, 0.8),
+    .04em .02em .05em hsla(183, 11%, 55%, 0.8),
+    .03em .03em .1em #8c8c8c,
+    .03em .03em .1em #8c8c8c,
+    -.03em .03em .1em #8c8c8c,
+    -.03em -.03em .1em #acacac,
+    .03em .03em .8em #a0a0a0
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #36393c;
+    background-image: url("../assets/bg_img.png");
+    background-blend-mode: screen;
+    background-position-y: -100px;
+    color: white;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+
+}
+
+table{
+    align-content: center;
+    margin-top: 40%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+table tr {
+    margin: 5px;
+}
+
 /* footer */
+
 footer {
     font-family: "Segoe UI", Roboto, sans-serif;
-    float: bottom;
-    position: fixed;
     text-align: center;
     width: 100%;
     background-color: #eac6c6;

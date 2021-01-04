@@ -65,6 +65,7 @@ header .highlight {
     background-color: #d2d5d9;
     padding: 20px;
     font-size: 18px;
+    box-shadow: #43474a;
 }
 
 nav a {
@@ -86,7 +87,6 @@ main {
 /* form */
 
 #formulier {
-    float: top;
     margin-top: 25px;
     font-family: "Segoe UI", Roboto, sans-serif;
     padding: 15px;
@@ -144,8 +144,6 @@ button {
 
 footer {
     font-family: "Segoe UI", Roboto, sans-serif;
-    float: bottom;
-    position: fixed;
     text-align: center;
     width: 100%;
     background-color: #eac6c6;
