@@ -90,6 +90,12 @@ main {
     height: 450px;
     color: white;
 }
+main a {
+    color: white;
+}
+main a:hover {
+    color: #eac6c6;
+}
 
 /* aside */
 

@@ -153,11 +153,11 @@ nav a {
     /* glow */
 
     color: transparent;
-    box-shadow: 0 0 .02em hsla(185, 20%, 67%, 0.8),
-    .04em .02em .05em hsla(184, 14%, 62%, 0.8),
-    .03em .03em .1em #c4c4c4,
-    .03em .03em .1em #c4c4c4,
-    -.03em .03em .1em #c4c4c4,
+    box-shadow: 0 0 .02em hsl(6, 61%, 72%),
+    .04em .02em .05em hsl(0, 0%, 36%),
+    .03em .03em .1em #e3948b,
+    .03em .03em .1em #c39898,
+    -.03em .03em .1em #e3948b,
     -.03em -.03em .1em #c4c4c4,
     .03em .03em .8em #e3e3e3
 }
@@ -174,7 +174,7 @@ nav a {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #2e3134;
+    background-color: #2d2d2d;
     background-image: url("../assets/bg_img.png");
     background-blend-mode: screen;
     background-position-y: -100px;
@@ -186,13 +186,11 @@ nav a {
 
 table{
     align-content: center;
-    margin-top: 40%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 40% 15%;
 }
 
 table tr {
-    margin: 5px;
+    margin: 15px;
 }
 
 /* footer */
@@ -207,5 +205,5 @@ footer {
 }
 
 footer p {
-    padding: 15px;
+    padding-top: 30px;
 }

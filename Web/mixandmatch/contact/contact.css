@@ -5,6 +5,9 @@
 body {
     margin: 0;
     background-color: #595f64;
+    background-image: url("../assets/bg_img.png");
+    background-position-y: -200px;
+    background-position-x: 135vh;
 }
 
 /* header */
@@ -80,25 +83,20 @@ nav a {
     padding: 20px 35px;
 }
 
-main {
-    height: 1000px;
-}
-
 /* form */
 
 #formulier {
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-left: 35vh;
     font-family: "Segoe UI", Roboto, sans-serif;
     padding: 15px;
     align-self: center;
-    background-color: rgba(191,212,224,0.8);
-    width: max-content;
-    margin-left: 59vh;
-
+    background-color: rgba(236, 236, 236, 0.9);
+    width: 1000px;
 }
 
 #formulier h1 {
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 
@@ -107,37 +105,39 @@ label {
     display: inline-block;
     padding: 10px 0 10px 10px;
     text-align: center;
+
+}
+
+.inputlabel {
+    margin-left: 240px;
+}
+
+#Mailbox {
+    margin-left: 200px;
 }
 
 input {
     height: 20px;
     width: 300px;
     text-align: right;
+
 }
 
 #submit {
     width: 250px;
     height: 50px;
-    margin-left: 50%;
+    margin-left: 370px;
     text-align: center;
+}
+
+#submit:hover {
+    background-color: #bfd4e0;
+    border-width: 1px;
 }
 
 #Opmerking {
     width: 300px;
     height: 100px;
-}
-
-.test2 {
-    padding-top: 0;
-}
-
-button {
-    width: 500px;
-    height: 150px;
-    margin-left: 120px;
-    text-align: center;
-    background-color: #151515;
-    color: white;
 }
 
 /* footer */
@@ -152,5 +152,5 @@ footer {
 }
 
 footer p {
-    padding: 15px;
+    padding-top: 30px;
 }
