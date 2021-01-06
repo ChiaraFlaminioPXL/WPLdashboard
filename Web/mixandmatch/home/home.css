@@ -134,7 +134,7 @@ footer p {
 }
 
 /* view */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     #about {
         max-height: 300px;
         min-width: 100%;
@@ -148,56 +148,3 @@ footer p {
     }
 }
 
-@media screen and (max-width: 711px) {
-    .neon, .neon:hover .broken {
-        font-size: 60px;
-    }
-    #mixandmatch {
-        padding-right: 35px;
-        padding-top: 25px;
-    }
-    header h3 {
-        visibility: hidden;
-    }
-}
-
-@media screen and (max-width: 673px) {
-    body {
-        width: 100%;
-    }
-    .neon, .neon:hover .broken {
-        font-size: 55px;
-    }
-    #mixandmatch {
-        padding-right: 35px;
-        padding-top: 35px;
-    }
-    #navigation a {
-        margin-right: 25%;
-        margin-left: 25%;
-        padding: 20px 35px;
-        margin-bottom: 25px;
-    }
-    #navigation {
-        text-align: center;
-    }
-    #navigation a:hover, #navigation a.active {
-
-    }
-}
-
-@media screen and (max-width: 644px) {
-    body {
-        width: 100%;
-    }
-    .neon, .neon:hover .broken {
-        font-size: 40px;
-    }
-    #mixandmatch {
-        padding-right: 35px;
-        padding-top: 20px;
-    }
-    header {
-        max-height: 160px;
-    }
-}

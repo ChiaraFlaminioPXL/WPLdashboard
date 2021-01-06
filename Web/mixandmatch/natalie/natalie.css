@@ -207,3 +207,15 @@ footer {
 footer p {
     padding-top: 30px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+    #cards {
+        margin-left: 0;
+    }
+    .maincontainer {
+        margin-left: 22px;
+        margin-right: 0;
+    }
+}
